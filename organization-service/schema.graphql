@@ -1,0 +1,151 @@
+type Query {
+  organizations: [Organization]!
+  organization(id: ID!): Organization!
+}
+
+type Mutation {
+  createOrganization(data: OrganizationInput!): Organization!
+  updateOrganization(id: ID!, data: OrganizationInput!): Organization!
+}
+
+type Organization {
+  subdomain: String!
+  name: String!
+  fullName: String!
+  login: String!
+  password: String!
+  inn: String
+  contacts: Contacts!
+  subscription: SubscriptionInfo!
+  type: OrganizationType!
+  legalFaceInfo: LegalFaceInfo!
+  ipInfo: IpInfo!
+  personInfo: PersonInfo!
+  bankDetails: BankDetails!
+}
+
+type Contacts {
+  mailAddress: String
+  factAddress: String
+  phone: String
+  email: String
+}
+
+type SubscriptionInfo {
+  subscriptionId: Int
+  subscriptionTime: Int
+}
+
+type OrganizationType {
+  name: String
+}
+
+type LegalFaceInfo {
+  name: String
+  fullName: String
+  director: String
+  legalAddress: String
+  kpp: String
+  okpo: Int
+  ogrn: Int
+}
+
+type IpInfo {
+  name: String
+  surname: String
+  patronymic: String
+  birthday: String
+  snils: String
+  ogrnip: Int
+}
+
+type PersonInfo {
+  name: String
+  surname: String
+  patronymic: String
+  birthday: String
+  snils: String
+  passportSeries: Int
+  passportNumber: Int
+  issueDate: String
+  issueBy: String
+  departamentCode: Int
+}
+
+type BankDetails {
+  bik: Int
+  bankName: String
+  accountCheck: Int
+  accountCorrespondent: Int
+}
+
+input CreateContacts {
+  mailAddress: String
+  factAddress: String
+  phone: String
+  email: String
+}
+
+input CreateSubcription {
+  subscriptionId: Int
+  subscriptionTime: Int
+}
+
+input CreateType {
+  name: String
+}
+
+input CreateLegalFaceInfo {
+  name: String
+  fullName: String
+  director: String
+  legalAddress: String
+  kpp: String
+  okpo: Int
+  ogrn: Int
+}
+
+input CreateIpInfo {
+  name: String
+  surname: String
+  patronymic: String
+  birthday: String
+  snils: String
+  ogrnip: Int
+}
+
+input CreatePersonInfo {
+  name: String
+  surname: String
+  patronymic: String
+  birthday: String
+  snils: String
+  passportSeries: Int
+  passportNumber: Int
+  issueDate: String
+  issueBy: String
+  departamentCode: Int
+}
+
+input CreateBankDetails {
+  bik: Int
+  bankName: String
+  accountCheck: Int
+  accountCorrespondent: Int
+}
+
+input OrganizationInput {
+  subdomain: String
+  name: String
+  fullName: String
+  login: String
+  password: String
+  inn: String
+  contacts: CreateContacts
+  subscription: CreateSubcription
+  type: CreateType
+  legalFaceInfo: CreateLegalFaceInfo
+  ipInfo: CreateIpInfo
+  personInfo: CreatePersonInfo
+  bankDetails: CreateBankDetails
+}

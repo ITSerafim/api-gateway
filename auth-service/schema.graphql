@@ -1,0 +1,66 @@
+directive @auth(requires: Role = ADMIN) on OBJECT | FIELD_DEFINITION
+
+enum Role {
+  ADMIN
+  USER
+}
+
+type Query {
+  user(id: ID!): User! @auth(requires: ADMIN)
+  users: [User]! @auth(requires: ADMIN)
+  login(input: AuthInput): AuthResponse
+  register(input: AuthInput): AuthResponse
+}
+
+type Mutation {
+  createUser(input: UserInput!): User!
+}
+
+type UserRole {
+  id: ID!
+  name: String!
+}
+
+type User {
+  id: ID!
+  roles: [UserRole]!
+  password: String!
+  avatar: String!
+  name: String!
+  surname: String!
+  patronymic: String!
+  email: String!
+  phone: String!
+  telegram_id: Int!
+}
+
+type AuthResponse {
+  user: User!
+  token: String!
+}
+
+input UserInput {
+  id: ID
+  role_id: Int
+  password: String
+  avatar: String
+  name: String
+  surname: String
+  patronymic: String
+  email: String
+  phone: String
+  telegram_id: Int
+}
+
+input AuthInput {
+  id: ID
+  role_id: Int
+  email: String
+  password: String
+  avatar: String
+  name: String
+  surname: String
+  patronymic: String
+  phone: String
+  telegram_id: Int
+}

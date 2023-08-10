@@ -1,0 +1,23 @@
+For all
+
+npm install -D eslint eslint-config-standart eslint-plugin-import eslint-plugin-n eslint-plugin-promise pino-pretty
+npm install nodemon dotenv fastify @fastify/cors pino mocha
+
+Only for proxy service
+
+npm install @fastify/http-proxy
+
+For organization & auth services
+
+npm install mercurius graphql 
+
+Only for organization service
+
+npm install mongoose
+
+Only for auth service
+
+npm install -D sequelize-cli
+npm install pg pg-hstore sequelize jsonwebtoken  bcrypt mercurius-auth
+
+

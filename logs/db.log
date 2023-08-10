@@ -1,0 +1,540 @@
+[19:38:26.301] [31mERROR[39m (14710): [36mSASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string[39m
+    err: {
+      "type": "ConnectionError",
+      "message": "SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string",
+      "stack":
+          SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+              at Client._connectionCallback (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:147:20)
+              at Client._handleErrorWhileConnecting (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:318:19)
+              at Client._handleErrorEvent (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:328:19)
+              at Connection.emit (node:events:513:28)
+              at Client._handleAuthSASLContinue (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:266:23)
+              at Connection.emit (node:events:513:28)
+              at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+              at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+              at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+              at Socket.emit (node:events:513:28)
+      "name": "SequelizeConnectionError",
+      "parent": {
+        "type": "Error",
+        "message": "SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string",
+        "stack":
+            Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+                at Object.continueSession (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/sasl.js:24:11)
+                at Client._handleAuthSASLContinue (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:263:12)
+                at Connection.emit (node:events:513:28)
+                at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+      },
+      "original": {
+        "type": "Error",
+        "message": "SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string",
+        "stack":
+            Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+                at Object.continueSession (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/sasl.js:24:11)
+                at Client._handleAuthSASLContinue (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:263:12)
+                at Connection.emit (node:events:513:28)
+                at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+      }
+    }
+[19:38:50.291] [31mERROR[39m (14900): [36mSASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string[39m
+    err: {
+      "type": "ConnectionError",
+      "message": "SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string",
+      "stack":
+          SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+              at Client._connectionCallback (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:147:20)
+              at Client._handleErrorWhileConnecting (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:318:19)
+              at Client._handleErrorEvent (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:328:19)
+              at Connection.emit (node:events:513:28)
+              at Client._handleAuthSASLContinue (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:266:23)
+              at Connection.emit (node:events:513:28)
+              at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+              at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+              at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+              at Socket.emit (node:events:513:28)
+      "name": "SequelizeConnectionError",
+      "parent": {
+        "type": "Error",
+        "message": "SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string",
+        "stack":
+            Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+                at Object.continueSession (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/sasl.js:24:11)
+                at Client._handleAuthSASLContinue (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:263:12)
+                at Connection.emit (node:events:513:28)
+                at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+      },
+      "original": {
+        "type": "Error",
+        "message": "SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string",
+        "stack":
+            Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+                at Object.continueSession (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/sasl.js:24:11)
+                at Client._handleAuthSASLContinue (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:263:12)
+                at Connection.emit (node:events:513:28)
+                at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+      }
+    }
+[19:39:54.703] [31mERROR[39m (15092): [36mSASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string[39m
+    err: {
+      "type": "ConnectionError",
+      "message": "SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string",
+      "stack":
+          SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+              at Client._connectionCallback (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:147:20)
+              at Client._handleErrorWhileConnecting (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:318:19)
+              at Client._handleErrorEvent (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:328:19)
+              at Connection.emit (node:events:513:28)
+              at Client._handleAuthSASLContinue (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:266:23)
+              at Connection.emit (node:events:513:28)
+              at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+              at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+              at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+              at Socket.emit (node:events:513:28)
+      "name": "SequelizeConnectionError",
+      "parent": {
+        "type": "Error",
+        "message": "SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string",
+        "stack":
+            Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+                at Object.continueSession (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/sasl.js:24:11)
+                at Client._handleAuthSASLContinue (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:263:12)
+                at Connection.emit (node:events:513:28)
+                at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+      },
+      "original": {
+        "type": "Error",
+        "message": "SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string",
+        "stack":
+            Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+                at Object.continueSession (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/sasl.js:24:11)
+                at Client._handleAuthSASLContinue (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:263:12)
+                at Connection.emit (node:events:513:28)
+                at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+      }
+    }
+[19:40:25.316] [31mERROR[39m (15194): [36mpassword authentication failed for user "serafimov"[39m
+    err: {
+      "type": "ConnectionError",
+      "message": "password authentication failed for user \"serafimov\"",
+      "stack":
+          SequelizeConnectionError: password authentication failed for user "serafimov"
+              at Client._connectionCallback (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:143:24)
+              at Client._handleErrorWhileConnecting (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:318:19)
+              at Client._handleErrorMessage (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:338:19)
+              at Connection.emit (node:events:513:28)
+              at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+              at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+              at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+              at Socket.emit (node:events:513:28)
+              at addChunk (node:internal/streams/readable:315:12)
+              at readableAddChunk (node:internal/streams/readable:289:9)
+      "name": "SequelizeConnectionError",
+      "parent": {
+        "type": "DatabaseError",
+        "message": "password authentication failed for user \"serafimov\"",
+        "stack":
+            error: password authentication failed for user "serafimov"
+                at Parser.parseErrorMessage (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:287:98)
+                at Parser.handlePacket (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:126:29)
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:39:38)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+                at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+        "length": 105,
+        "name": "error",
+        "severity": "FATAL",
+        "code": "28P01",
+        "file": "auth.c",
+        "line": "326",
+        "routine": "auth_failed"
+      },
+      "original": {
+        "type": "DatabaseError",
+        "message": "password authentication failed for user \"serafimov\"",
+        "stack":
+            error: password authentication failed for user "serafimov"
+                at Parser.parseErrorMessage (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:287:98)
+                at Parser.handlePacket (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:126:29)
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:39:38)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+                at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+        "length": 105,
+        "name": "error",
+        "severity": "FATAL",
+        "code": "28P01",
+        "file": "auth.c",
+        "line": "326",
+        "routine": "auth_failed"
+      }
+    }
+[19:40:49.147] [31mERROR[39m (15277): [36mSASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string[39m
+    err: {
+      "type": "ConnectionError",
+      "message": "SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string",
+      "stack":
+          SequelizeConnectionError: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+              at Client._connectionCallback (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:147:20)
+              at Client._handleErrorWhileConnecting (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:318:19)
+              at Client._handleErrorEvent (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:328:19)
+              at Connection.emit (node:events:513:28)
+              at Client._handleAuthSASLContinue (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:266:23)
+              at Connection.emit (node:events:513:28)
+              at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+              at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+              at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+              at Socket.emit (node:events:513:28)
+      "name": "SequelizeConnectionError",
+      "parent": {
+        "type": "Error",
+        "message": "SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string",
+        "stack":
+            Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+                at Object.continueSession (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/sasl.js:24:11)
+                at Client._handleAuthSASLContinue (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:263:12)
+                at Connection.emit (node:events:513:28)
+                at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+      },
+      "original": {
+        "type": "Error",
+        "message": "SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string",
+        "stack":
+            Error: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+                at Object.continueSession (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/sasl.js:24:11)
+                at Client._handleAuthSASLContinue (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:263:12)
+                at Connection.emit (node:events:513:28)
+                at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+      }
+    }
+[19:41:35.850] [31mERROR[39m (15404): [36mpassword authentication failed for user "serafimov"[39m
+    err: {
+      "type": "ConnectionError",
+      "message": "password authentication failed for user \"serafimov\"",
+      "stack":
+          SequelizeConnectionError: password authentication failed for user "serafimov"
+              at Client._connectionCallback (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:143:24)
+              at Client._handleErrorWhileConnecting (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:318:19)
+              at Client._handleErrorMessage (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:338:19)
+              at Connection.emit (node:events:513:28)
+              at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+              at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+              at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+              at Socket.emit (node:events:513:28)
+              at addChunk (node:internal/streams/readable:315:12)
+              at readableAddChunk (node:internal/streams/readable:289:9)
+      "name": "SequelizeConnectionError",
+      "parent": {
+        "type": "DatabaseError",
+        "message": "password authentication failed for user \"serafimov\"",
+        "stack":
+            error: password authentication failed for user "serafimov"
+                at Parser.parseErrorMessage (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:287:98)
+                at Parser.handlePacket (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:126:29)
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:39:38)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+                at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+        "length": 105,
+        "name": "error",
+        "severity": "FATAL",
+        "code": "28P01",
+        "file": "auth.c",
+        "line": "326",
+        "routine": "auth_failed"
+      },
+      "original": {
+        "type": "DatabaseError",
+        "message": "password authentication failed for user \"serafimov\"",
+        "stack":
+            error: password authentication failed for user "serafimov"
+                at Parser.parseErrorMessage (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:287:98)
+                at Parser.handlePacket (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:126:29)
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:39:38)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+                at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+        "length": 105,
+        "name": "error",
+        "severity": "FATAL",
+        "code": "28P01",
+        "file": "auth.c",
+        "line": "326",
+        "routine": "auth_failed"
+      }
+    }
+[19:42:48.878] [31mERROR[39m (15529): [36mpassword authentication failed for user "root"[39m
+    err: {
+      "type": "ConnectionError",
+      "message": "password authentication failed for user \"root\"",
+      "stack":
+          SequelizeConnectionError: password authentication failed for user "root"
+              at Client._connectionCallback (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:143:24)
+              at Client._handleErrorWhileConnecting (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:318:19)
+              at Client._handleErrorMessage (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:338:19)
+              at Connection.emit (node:events:513:28)
+              at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+              at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+              at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+              at Socket.emit (node:events:513:28)
+              at addChunk (node:internal/streams/readable:315:12)
+              at readableAddChunk (node:internal/streams/readable:289:9)
+      "name": "SequelizeConnectionError",
+      "parent": {
+        "type": "DatabaseError",
+        "message": "password authentication failed for user \"root\"",
+        "stack":
+            error: password authentication failed for user "root"
+                at Parser.parseErrorMessage (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:287:98)
+                at Parser.handlePacket (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:126:29)
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:39:38)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+                at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+        "length": 100,
+        "name": "error",
+        "severity": "FATAL",
+        "code": "28P01",
+        "file": "auth.c",
+        "line": "326",
+        "routine": "auth_failed"
+      },
+      "original": {
+        "type": "DatabaseError",
+        "message": "password authentication failed for user \"root\"",
+        "stack":
+            error: password authentication failed for user "root"
+                at Parser.parseErrorMessage (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:287:98)
+                at Parser.handlePacket (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:126:29)
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:39:38)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+                at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+        "length": 100,
+        "name": "error",
+        "severity": "FATAL",
+        "code": "28P01",
+        "file": "auth.c",
+        "line": "326",
+        "routine": "auth_failed"
+      }
+    }
+[19:43:05.811] [31mERROR[39m (15611): [36mpassword authentication failed for user "serafimov"[39m
+    err: {
+      "type": "ConnectionError",
+      "message": "password authentication failed for user \"serafimov\"",
+      "stack":
+          SequelizeConnectionError: password authentication failed for user "serafimov"
+              at Client._connectionCallback (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/sequelize/lib/dialects/postgres/connection-manager.js:143:24)
+              at Client._handleErrorWhileConnecting (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:318:19)
+              at Client._handleErrorMessage (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/client.js:338:19)
+              at Connection.emit (node:events:513:28)
+              at /home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg/lib/connection.js:116:12
+              at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:40:17)
+              at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+              at Socket.emit (node:events:513:28)
+              at addChunk (node:internal/streams/readable:315:12)
+              at readableAddChunk (node:internal/streams/readable:289:9)
+      "name": "SequelizeConnectionError",
+      "parent": {
+        "type": "DatabaseError",
+        "message": "password authentication failed for user \"serafimov\"",
+        "stack":
+            error: password authentication failed for user "serafimov"
+                at Parser.parseErrorMessage (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:287:98)
+                at Parser.handlePacket (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:126:29)
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:39:38)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+                at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+        "length": 105,
+        "name": "error",
+        "severity": "FATAL",
+        "code": "28P01",
+        "file": "auth.c",
+        "line": "326",
+        "routine": "auth_failed"
+      },
+      "original": {
+        "type": "DatabaseError",
+        "message": "password authentication failed for user \"serafimov\"",
+        "stack":
+            error: password authentication failed for user "serafimov"
+                at Parser.parseErrorMessage (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:287:98)
+                at Parser.handlePacket (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:126:29)
+                at Parser.parse (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/parser.js:39:38)
+                at Socket.<anonymous> (/home/serafimov/WorkProjects/tacho_ban_api_gateway/node_modules/pg-protocol/dist/index.js:11:42)
+                at Socket.emit (node:events:513:28)
+                at addChunk (node:internal/streams/readable:315:12)
+                at readableAddChunk (node:internal/streams/readable:289:9)
+                at Socket.Readable.push (node:internal/streams/readable:228:10)
+                at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+        "length": 105,
+        "name": "error",
+        "severity": "FATAL",
+        "code": "28P01",
+        "file": "auth.c",
+        "line": "326",
+        "routine": "auth_failed"
+      }
+    }
+[19:43:37.640] [32mINFO[39m (15755): [36mConnection to Database success[39m
+[19:46:02.041] [32mINFO[39m (16139): [36mConnection to Database success[39m
+[19:47:57.183] [32mINFO[39m (16423): [36mConnection to Database success[39m
+[19:48:47.110] [32mINFO[39m (16595): [36mConnection to Database success[39m
+[19:49:08.483] [32mINFO[39m (16669): [36mConnection to Database success[39m
+[19:49:15.852] [32mINFO[39m (16740): [36mConnection to Database success[39m
+[19:49:28.714] [32mINFO[39m (16790): [36mConnection to Database success[39m
+[19:49:43.124] [32mINFO[39m (16866): [36mConnection to Database success[39m
+[19:49:58.246] [32mINFO[39m (16962): [36mConnection to Database success[39m
+[19:50:29.882] [32mINFO[39m (17049): [36mConnection to Database success[39m
+[19:50:45.719] [32mINFO[39m (17125): [36mConnection to Database success[39m
+[19:50:50.252] [32mINFO[39m (17170): [36mConnection to Database success[39m
+[19:50:52.516] [32mINFO[39m (17205): [36mConnection to Database success[39m
+[19:51:20.021] [32mINFO[39m (17327): [36mConnection to Database success[39m
+[19:51:43.641] [32mINFO[39m (17399): [36mConnection to Database success[39m
+[19:52:03.356] [32mINFO[39m (17481): [36mConnection to Database success[39m
+[19:52:17.767] [32mINFO[39m (17556): [36mConnection to Database success[39m
+[19:52:41.395] [32mINFO[39m (17635): [36mConnection to Database success[39m
+[19:53:12.497] [32mINFO[39m (17715): [36mConnection to Database success[39m
+[19:53:30.485] [32mINFO[39m (17836): [36mConnection to Database success[39m
+[19:53:40.171] [32mINFO[39m (17909): [36mConnection to Database success[39m
+[19:53:58.087] [32mINFO[39m (17990): [36mConnection to Database success[39m
+[19:54:04.299] [32mINFO[39m (18050): [36mConnection to Database success[39m
+[19:54:27.941] [32mINFO[39m (18116): [36mConnection to Database success[39m
+[20:01:45.063] [32mINFO[39m (18471): [36mConnection to Database success[39m
+[20:02:26.895] [32mINFO[39m (18568): [36mConnection to Database success[39m
+[20:02:54.765] [32mINFO[39m (18648): [36mConnection to Database success[39m
+[20:03:28.742] [32mINFO[39m (18745): [36mConnection to Database success[39m
+[20:03:40.312] [32mINFO[39m (18818): [36mConnection to Database success[39m
+[20:04:50.468] [32mINFO[39m (18907): [36mConnection to Database success[39m
+[20:10:41.558] [32mINFO[39m (19387): [36mConnection to Database success[39m
+[20:11:05.432] [32mINFO[39m (19482): [36mConnection to Database success[39m
+[20:11:14.421] [32mINFO[39m (19558): [36mConnection to Database success[39m
+[20:11:34.162] [32mINFO[39m (19614): [36mConnection to Database success[39m
+[20:11:47.277] [32mINFO[39m (19687): [36mConnection to Database success[39m
+[20:13:24.225] [32mINFO[39m (19889): [36mConnection to Database success[39m
+[20:14:05.007] [32mINFO[39m (19967): [36mConnection to Database success[39m
+[20:16:01.943] [32mINFO[39m (20188): [36mConnection to Database success[39m
+[20:18:31.916] [32mINFO[39m (20362): [36mConnection to Database success[39m
+[20:21:56.787] [32mINFO[39m (20500): [36mConnection to Database success[39m
+[20:22:13.970] [32mINFO[39m (20575): [36mConnection to Database success[39m
+[20:22:28.076] [32mINFO[39m (20678): [36mConnection to Database success[39m
+[20:22:35.952] [32mINFO[39m (20756): [36mConnection to Database success[39m
+[20:23:42.720] [32mINFO[39m (20852): [36mConnection to Database success[39m
+[21:15:06.155] [32mINFO[39m (22127): [36mConnection to Database success[39m
+[21:16:25.080] [32mINFO[39m (22290): [36mConnection to Database success[39m
+[21:16:41.177] [32mINFO[39m (22371): [36mConnection to Database success[39m
+[21:16:52.768] [32mINFO[39m (22461): [36mConnection to Database success[39m
+[21:17:08.136] [32mINFO[39m (22534): [36mConnection to Database success[39m
+[21:17:19.349] [32mINFO[39m (22616): [36mConnection to Database success[39m
+[21:18:36.111] [32mINFO[39m (22703): [36mConnection to Database success[39m
+[21:18:56.215] [32mINFO[39m (22776): [36mConnection to Database success[39m
+[21:21:13.015] [32mINFO[39m (22873): [36mConnection to Database success[39m
+[21:21:19.322] [32mINFO[39m (22937): [36mConnection to Database success[39m
+[21:22:06.415] [32mINFO[39m (23013): [36mConnection to Database success[39m
+[21:26:24.312] [32mINFO[39m (23501): [36mConnection to Database success[39m
+[21:26:54.832] [32mINFO[39m (23594): [36mConnection to Database success[39m
+[21:27:11.082] [32mINFO[39m (23673): [36mConnection to Database success[39m
+[21:29:44.245] [32mINFO[39m (24015): [36mConnection to Database success[39m
+[21:31:02.015] [32mINFO[39m (24143): [36mConnection to Database success[39m
+[21:31:05.265] [32mINFO[39m (24192): [36mConnection to Database success[39m
+[21:31:08.327] [32mINFO[39m (24192): [36mSuccess create entity with data: ReferenceError: result is not defined[39m
+[21:31:09.808] [32mINFO[39m (24192): [36mSuccess create entity with data: ReferenceError: result is not defined[39m
+[21:33:04.028] [32mINFO[39m (24356): [36mConnection to Database success[39m
+[21:33:13.030] [32mINFO[39m (24356): [36mSuccess get entity: [object SequelizeInstance:User],[object SequelizeInstance:User][39m
+[21:33:13.560] [32mINFO[39m (24356): [36mSuccess get entity: [object SequelizeInstance:User],[object SequelizeInstance:User][39m
+[21:37:29.928] [32mINFO[39m (24818): [36mConnection to Database success[39m
+[21:37:33.430] [32mINFO[39m (24818): [36mSuccess get all entities: [object SequelizeInstance:User][39m
+[21:37:39.798] [32mINFO[39m (24818): [36mSuccess get all entities: [object SequelizeInstance:User][39m
+[21:37:53.037] [32mINFO[39m (24938): [36mConnection to Database success[39m
+[21:38:39.583] [32mINFO[39m (24938): [36mSuccess create entity with data: [object SequelizeInstance:User][39m
+[21:38:49.978] [32mINFO[39m (24938): [36mSuccess create entity with data: [object SequelizeInstance:User][39m
+[21:44:22.113] [32mINFO[39m (24938): [36mSuccess create entity with data: [object SequelizeInstance:User][39m
+[21:47:52.132] [32mINFO[39m (25809): [36mConnection to Database success[39m
+[21:48:18.993] [32mINFO[39m (25903): [36mConnection to Database success[39m
+[21:49:25.475] [32mINFO[39m (25988): [36mConnection to Database success[39m
+[21:51:04.152] [32mINFO[39m (26132): [36mConnection to Database success[39m
+[21:51:30.928] [32mINFO[39m (26226): [36mConnection to Database success[39m
+[21:53:56.818] [32mINFO[39m (26432): [36mConnection to Database success[39m
+[21:54:43.356] [32mINFO[39m (26515): [36mConnection to Database success[39m
+[21:58:49.698] [32mINFO[39m (26783): [36mConnection to Database success[39m
+[21:59:54.868] [32mINFO[39m (26893): [36mConnection to Database success[39m
+[22:00:00.463] [32mINFO[39m (26946): [36mConnection to Database success[39m
+[22:02:52.169] [32mINFO[39m (27126): [36mConnection to Database success[39m
+[22:03:30.399] [32mINFO[39m (27217): [36mConnection to Database success[39m
+[22:04:02.028] [32mINFO[39m (27306): [36mConnection to Database success[39m
+[22:04:51.786] [32mINFO[39m (27395): [36mConnection to Database success[39m
+[22:06:05.341] [32mINFO[39m (27519): [36mConnection to Database success[39m
+[22:06:23.991] [32mINFO[39m (27601): [36mConnection to Database success[39m
+[22:07:47.519] [32mINFO[39m (27706): [36mConnection to Database success[39m
+[22:08:19.530] [32mINFO[39m (27838): [36mConnection to Database success[39m
+[22:10:22.973] [32mINFO[39m (28024): [36mConnection to Database success[39m

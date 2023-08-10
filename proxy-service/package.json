@@ -1,0 +1,30 @@
+{
+  "name": "proxy-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix ./*.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-standart": "^0.2.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "pino-pretty": "^10.0.0"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@fastify/http-proxy": "^9.1.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.17.0",
+    "nodemon": "^2.0.22",
+    "pino": "^8.14.1"
+  }
+}
